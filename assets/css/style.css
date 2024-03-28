@@ -1,0 +1,42 @@
+label {
+  vertical-align: middle;
+}
+
+input[type=password],
+input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  margin: 5px 0px 10px;
+  padding: 8px;
+}
+
+.form-label {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.btn-custom {
+  background-color: #17C964;
+}
+.btn-login {
+  background-color:#faa0bf;
+}
+.btn-custom:hover {
+  background-color: #12A150;
+}
+.shortpara{
+  padding-top: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(19, 19, 19);
+  font-size: medium;
+}
+.image{
+  padding-top: 30px;
+}
+
+
