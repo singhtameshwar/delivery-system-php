@@ -3,6 +3,9 @@
 
 Brief description or overview of your project.
 
+![alt text](./project-diagram.png)
+
+
 ## Installation
 
 - Install beekeper
