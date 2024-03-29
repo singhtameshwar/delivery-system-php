@@ -1,5 +1,5 @@
 
-# delhivery
+# Delhivery
 
 ![alt text](./project-diagram.png)
 
@@ -9,7 +9,7 @@
 
 - Install beekeper.This software application use to designed for database management. It could offer an enhanced set of features and capabilities beyond the standard version.
 
-### run-application:
+### Run-Application:
 
 - Running Beekeeper Studio Ultimate is straightforward. First, install the application and activate it if necessary. Launch the program and connect to your databases by providing relevant details. Once connected, explore its features like querying, managing database objects, and data visualization. Customize as needed, save your work, and exit when done. Keep the software updated for the latest features and security patches.
 
