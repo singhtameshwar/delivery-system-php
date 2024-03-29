@@ -3,10 +3,9 @@ session_start();
 
 $loggedin;
 
-if ($_SESSION['id']) {
+if  ( isset($_SESSION['id']) && !empty($_SESSION['id'])) {
     $loggedin = true;
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
