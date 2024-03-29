@@ -3,8 +3,6 @@
 
 ![alt text](./project-diagram.png)
 
-
-
 ## Installation:
 
 - Install beekeper.This software application use to designed for database management. It could offer an enhanced set of features and capabilities beyond the standard version.

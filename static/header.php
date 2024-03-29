@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+$loggedin;
+
+if ($_SESSION['id']) {
+    $loggedin = true;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,8 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delhivery</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    
-
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -15,7 +23,6 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
@@ -42,11 +49,20 @@
                     <li class="nav-item">
                         <a class="nav-link text-white">Support</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="login.php">
-                            Sign In
-                        </a>
-                    </li>
+                    <?php
+                    if (isset($loggedin)) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="logout.php">
+                            Logout
+                            </a>
+                        </li>
+                    <?php }else { ?>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="logout.php">
+                             Sign In
+                            </a>
+                        </li><?php
+                            }  ?>
                 </ul>
             </div>
         </div>
